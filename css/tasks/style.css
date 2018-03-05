@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ta {
+    text-align: center;
+}
+
+body {
+    background-color: #e3f2fd;
+    background-image: url(../../images/back.jpg);
+    -webkit-background-size: 256px;
+    background-size: 256px;
+}
+
+.contentWrapper {
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.content {
+    padding: 20px 30px;
+    overflow-x: auto;
+    font-size: 16px;
+}
+
+input.correct {
+    color: #fff;
+    background-color: #81c784 !important;
+}
+
+input.wrong {
+    color: #fff !important;
+    border-color: red !important;
+    background: #e53935 !important;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+.esepTitle {
+    font-size: 26px;
+    text-align: center;
+    padding: 25px;
+}
+
+.esepTitle::first-letter {
+    text-transform: capitalize;
+}
+
+.blockTitle {
+    font-size: 26px;
+}
+
+.clearB {
+    clear: both;
+}
+
+.answers {
+    display: none;
+    margin-top: 30px;
+}
+
+.steps {
+    margin-bottom: 5px;
+}
+
+.solutionImg {
+    vertical-align: middle;
+}
+
+.solutionText {
+    display: inline-block;
+}
+
+.infl {
+    display: inline-flex;
+}
+
+.primechanie {
+    margin-top: 10px;
+}
+
+.user_input_field {
+    display: none;
+}
+
+.user_input_field.active {
+    display: block;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.dp {
+    display: block;
+}
+
+.tabuKerek {
+    margin-left: 20px;
+}
+
+.hovered {
+    background-color: #fff59d !important;
+}
+
+.draggable {
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    min-height: 50px !important;
+}
+
+.draggable-item-clear {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.draggable:first-letter {
+    text-transform: uppercase;
+}
+
+fieldset{
+    border: none;
+}

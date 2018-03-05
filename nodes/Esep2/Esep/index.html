@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Esep 02</title>
+    <link rel="stylesheet" href="../../../css/tasks/materialize.min.css">
+    <link rel="stylesheet" href="../../../css/tasks/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="contentWrapper">
+                <div class="esepTitle">
+                    Для данного определителя найти миноры и алгебраические дополнения элементов Вычислить определитель: а) разложив его по элементам i-той строки; б) разложив его по элементам j-того столбца;
+                </div>
+                <div class="content">
+                    <div class="col s6">
+                        <br>
+                        <div class="row">
+                            <div class="col s3"><span class="arraya00">1</span></div>
+                            <div class="col s3"><span class="arraya01">-2</span></div>
+                            <div class="col s3"><span class="arraya02">1</span></div>
+                            <div class="col s3"><span class="arraya03">0</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col s3"><span class="arraya10">-3</span></div>
+                            <div class="col s3"><span class="arraya11">2</span></div>
+                            <div class="col s3"><span class="arraya12">1</span></div>
+                            <div class="col s3"><span class="arraya13">-2</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col s3"><span class="arraya20">2</span></div>
+                            <div class="col s3"><span class="arraya21">1</span></div>
+                            <div class="col s3"><span class="arraya22">0</span></div>
+                            <div class="col s3"><span class="arraya23">1</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col s3"><span class="arraya30">1</span></div>
+                            <div class="col s3"><span class="arraya31">-2</span></div>
+                            <div class="col s3"><span class="arraya32">3</span></div>
+                            <div class="col s3"><span class="arraya33">-2</span></div>
+                        </div>
+                    </div>
+
+                    <form action="" class="userForms clearB col s6" id="userForms">
+                        <div class="input-field  user_input_field active">
+                            <div class="input-field">
+                                <input id="userInput1" name="userInput1" type="text" class="validate">
+                                <label for="userInput1"></label>
+                            </div>
+                            <div class="input-field">
+                                <input id="userInput2" name="userInput2" type="text" class="validate">
+                                <label for="userInput2"></label>
+                            </div>
+                        </div>
+
+                        <div class="input-field actionButtons clearB">
+                            <button class="waves-effect deep-orange darken-1 btn" type="button" id="generateRandom">Генерировать</button>
+                            <button class="waves-effect waves-light btn right green darken-1" type="submit">Тексеру</button>
+                        </div>
+                        <div class="input-field actionButtons clearB">
+                            <button class="waves-effect waves-light btn yellow darken-2 left" type="button" id="show_solution">Шығарылуы</button>
+                        </div>
+                    </form>
+                </div>
+
+                <fieldset class="box" id="mark" hidden>Ваша оценка: <span id="markValue"></span>% <span id="markSend"></span></fieldset>
+                <div class="answers clearB" id="solution">
+                    <div class="content">
+                        <div class="blockTitle">
+                            Шығарылуы:
+                        </div>
+                        <div class="steps">
+                            <p>
+                                AB
+                            </p>
+                            <div class="row">
+                                <div class="col s4"><span class="arrayab00">1</span></div>
+                                <div class="col s4"><span class="arrayab01">-1</span></div>
+                                <div class="col s4"><span class="arrayab02">-1</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col s4"><span class="arrayab10">5</span></div>
+                                <div class="col s4"><span class="arrayab11">-5</span></div>
+                                <div class="col s4"><span class="arrayab12">-2</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col s4"><span class="arrayab20">1</span></div>
+                                <div class="col s4"><span class="arrayan21">3</span></div>
+                                <div class="col s4"><span class="arrayab22">2</span></div>
+                            </div>
+                        </div>
+                        <div class="steps">
+                            <p>
+                                BA
+                            </p>
+                            <div class="row">
+                                <div class="col s4"><span class="arrayba00">1</span></div>
+                                <div class="col s4"><span class="arrayba01">-1</span></div>
+                                <div class="col s4"><span class="arrayba02">-1</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col s4"><span class="arrayba10">5</span></div>
+                                <div class="col s4"><span class="arrayba11">-5</span></div>
+                                <div class="col s4"><span class="arrayba12">-2</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col s4"><span class="arrayba20">1</span></div>
+                                <div class="col s4"><span class="arrayba21">3</span></div>
+                                <div class="col s4"><span class="arrayba22">2</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../../../js/tasks/jquery-3.3.1.min.js"></script>
+    <script src="../../../js/tasks/jquery-ui.js"></script>
+    <script src="../../../js/tasks/math.min.js"></script>
+    <script src="../../../js/tasks/materialize.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
